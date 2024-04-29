@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+  <title>marketing-tool</title>
+
+    <style>
+        #outlineborder{
+            border: none;
+            outline: none;
+        }
+
+        #outlineborder-2{
+            border: none;
+            outline: none;
+        }
+
+        #outlineborder-3{
+            border: none;
+            outline: none;
+        }
+
+        .bit{
+          width: 20x;
+          height: 20x;
+          background-color: black;
+        }
+
+        input[type="datetime-local"] {
+  
+   flex-flow: row-reverse;
+  
+}
+
+.breadcrumb > .active {
+   color: orange;
+   text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"><i class="fa fa-fw fa-home"></i></a></li>
+              <li class="breadcrumb-item">Marketing Tools</li>
+              <li class="breadcrumb-item active" aria-current="page">Create quiz</li>
+            </ol>
+          </nav>
+
+        <div class="d-flex">
+        <form method="POST">
+         
+          
+            
+            <label for="" class="fw-lighter"> <p>Start Date :</p></label>
+              <input type="datetime-local" name="" id="outlineborder" class="fw-lighter"/>
+              
+
+             
+            <label for="" class="fw-lighter"><p>End Date :</p></label>
+              <input class="fw-lighter" type="datetime-local" name="" id="outlineborder-2"/>
+           
+           
+            
+              <label for="" class="fw-lighter" ><p>Validity Peroid of Wallet :</p></label>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+              </svg>
+              <input type="datetime-local" class="fw-lighter" name="" id="outlineborder-2">
+            
+
+            
+              <button type="button" class="btn btn-outline-warning">View Discount Product</button>
+             <br><a href="#"  class="link-underline-light float-end">Guidlines to create the quiz</a>
+             
+           
+<br>
+<br>
+
+          <div class="d-flex" >
+            <div class="container">
+                <div class="row gx-1">
+                  <div class="col-5">
+           <label for="" ><h5>How do you want to split the disscount</h5>
+           
+              
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Random Split
+            </label>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Equal Split
+            </label>
+            </label>
+            </div>
+            
+       
+            <div class="col-5">
+            <label for="" class="left-1"><h5>Whom do you want to create quize?</h5>
+               
+              
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                 New Customer
+                </label>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                 Existing Customer
+                </label>
+            </label>
+            </div>
+            </div>
+            </div>
+
+             
+        </div>
+<br>
+
+<div class="container">
+<div class="row">
+  <div class="col-6">
+            <h5>How do you want quize amount ?</h5>
+            </div>
+            </div>
+          </div>
+          
+<br>
+<div>
+            
+
+              
+            <div class="d-flex">
+              <div class="container">
+                <div class="row gx-1">
+                  <div class="col-2">
+             <div class="btn-group">
+
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Fixed Margin</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+
+              
+            
+              <div class="col-2">
+              <div class="btn-group">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Category</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+
+
+              <div class="col-2">
+              <div class="btn-group">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Sub Categories</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+
+            
+            
+              <div class="col-4">
+              <input class="form-control" type="text" placeholder="Enter highest disscount value" readonly>
+              </div>
+            
+              <div class="col-2">
+              <button type="button" class="btn btn-outline-warning">Choose Product</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+<br>
+
+
+   <div class="d-flex">  
+    <div class="container">
+      <div class="row gx-5">
+        <div class="col-4">   
+<input class="form-control" type="text" placeholder="Enter the usage limit / Coupon" readonly>
+<span class="fw-lighter">eg 1</span>
+        </div>
+        
+        <div class="col-4">
+<input class="form-control" type="text" placeholder="Enter the usage limit / Customer" readonly>
+<span class="fw-lighter">eg 1</span>
+</div> 
+</div>
+</div>
+</div>
+
+
+
+
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-10">     
+<label for="exampleFormControlTextarea1" class="form-label"></label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Description for disscount product"></textarea>
+</div>
+</div>
+</div>
+           <br><br>
+
+           <div class="d-flex">  
+            <div class="container">
+              <div class="row gx-1">
+                
+                <div class="col-5"> 
+        <input class="form-control w-0 p-o" type="text" placeholder="Enter Quiz / campaign Name" readonly>
+        <span class="fw-lighter"">eg Seasonal Deals</span>
+                </div>
+               
+                <div class="col-1"> 
+
+                <span class="test rounded-circle">  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bit rounded-circle bi-plus" viewBox="0 0 16 16">
+                    <path  class="rounded-circle" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>  
+                </span>
+                </div>
+
+                <div class="col-4">
+                  <a href="#"  class="link-underline-light link-warning">Click + to Start Creating questions ?</a>
+                  </div>
+                  </div>
+                  </div>
+            
+        
+        </div>
+          
+           
+            
+              
+           
+            
+             
+          </form>
+        </div>
+</body>
+</html>

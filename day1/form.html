@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Doctor Form</title>
+<style>
+hr{
+font-color:red;
+}
+</style>
+</head>
+<body>
+<form method="POST">
+<h1>Doctor Appointment Form</h1>
+<hr>
+<div>
+<label>Appointment Date</label>
+<input type="date" id="date" name="date"/>
+</div>
+<br>
+
+<div>
+<label>Appointment Time</label>
+<input type="time" id="time" name="time"/>
+</div>
+<br>
+
+<div>
+<label>Name</label>
+<input type="text" id="text" name="First" placeholder="First"/>
+<input type="text" id="text" name="Last" placeholder="last"/>
+</div>
+<br>
+
+<div>
+<label>Gender</label>
+<label><input type="radio" id="radio" name="male" value="Male"/>Male</label>
+<label><input type="radio" id="radio" name="female" value="Female"/>Female</label>
+</div>
+<br>
+
+<div>
+<label>Phone</label>
+<input type="number" id="number" name="number" placeholder="###"/>
+</div>
+<br>
+
+
+<div>
+<label>Address</label>
+<input type="text" id="text" name="city" placeholder="city"/>
+<input type="text" id="text" name="state" placeholder="state"/>
+</div>
+<br>
+
+<div>
+<label>Your Query</label>
+<textarea id="" ></textarea>
+</div>
+<br>
+
+<div>
+<label>Appointment Type</label>
+<label>Select which appointment tpes you require</label>
+<br>
+<label><input type="checkbox"/>Cervix checkup</label>
+<br>
+<label><input type="checkbox"/>Heart checkup</label>
+<br>
+<label><input type="checkbox"/>Eye check-up</label>
+<br>
+<label><input type="checkbox"/>Hearing Test</label>
+</div>
+<br>
+
+<div>
+<input type="submit" value="send" name="send" placeholder="send"/>
+
+</form>
+</body>
+</html>
