@@ -4,7 +4,7 @@ import './App.css';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TodoApi from './components/TodoApi';
+
 // import Horizontal from './components/Horizontal';
 // import { Navbar } from 'react-bootstrap';
 
@@ -23,9 +23,7 @@ import TodoApi from './components/TodoApi';
 // import ContentTeam from './components/ContentTeam';
 // import CardImage from './components/CardImage';
 
-// import BizLand from './components/Bizland';
-// import Button1 from './components/Button1';
-// import ImageGrid from './components/imageGrid';
+
 
 
 // import Home from './components/Home';
@@ -35,10 +33,9 @@ import TodoApi from './components/TodoApi';
 // import Blogs from './components/Blogs';
 // import ClientAlbmuns from './components/ClientAlbmuns';
 // import Contact from './components/Contact';
-// import Todos from './components/Todos';
 
-// import BizLandScreen from './components/BizLandScreen';
-// import Buttons from './components/Buttons';
+
+
 // import ParentProps from './components/ParentProps';
 // import Child from './components/Child';
 // import ToggleContent from './components/ToggleContent';
@@ -50,8 +47,8 @@ import TodoApi from './components/TodoApi';
 // import Table from './components/Table';
 // import Welcome from './components/Welcome';
 
-// import BasicButtons from './components/BasicButtons';
-// import Todos from './components/Todos';
+import BasicButtons from './components/BasicButtons';
+
 
 
 
@@ -62,22 +59,10 @@ function App() {
   
 
 
-    // <BrowserRouter>
-    // <Navbar/>
-    // <Routes>
-    //   <Route path='/' element={<Home/>}></Route>
-    //   <Route path='/Portfolio' element={<Portfolio/>}>
-    //   </Route>
-    //   <Route path='/About' element={<About/>}></Route>
-    //   <Route path='/Books' element={<Books/>}></Route>
-    //   <Route path='/Blogs' element={<Blogs/>}></Route>
-    //   <Route path='/ClientAlbmuns' element={<ClientAlbmuns/>}></Route>
-    //   <Route path='/Contact' element={<Contact/>}></Route>
-    // </Routes>
-    // </BrowserRouter>
+ 
 <div>
-  {/* <Todos/> */}
-  <TodoApi/>
+  <BasicButtons/>
+  
 </div>
     
   );
